@@ -8,7 +8,7 @@ class TestSum(unittest.TestCase):
     def test_addition(self):
         data = [10, 20]
         result = summation(data)
-        self.assertEqual(result, 35)
+        self.assertEqual(result, 30)
 
 if __name__ == "__main__":
     unittest.main()
