@@ -2,14 +2,6 @@ pipeline {
     agent any
 
     stages {
-
-        stage('Clone Git') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/Aditya01237/Jenkins.git'
-            }
-        }
-
         stage('Build Code') {
             steps {
                 sh 'chmod +x Prog1.py'
